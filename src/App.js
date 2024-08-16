@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
+import Home from './Home';
+import Experience from './Experience';
+import Download from './Download';
+import Certificates from './Certificates';
+// import BouncingBall from './BouncingBall';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      
+      <div className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/download" element={<Download/>}/>
+          <Route path="/certificates" element={<Certificates/>}/>
+        </Routes>
+       
+      </div>
     </div>
   );
 }

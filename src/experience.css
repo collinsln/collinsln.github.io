@@ -1,0 +1,52 @@
+.experience-section {
+    padding: 50px;
+    color: #ffffff;
+  }
+  
+  .experience-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .timeline {
+    position: relative;
+    padding: 20px 0;
+    border-left: 4px solid #17a2b8;
+  }
+  
+  .timeline-item {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #343a40;
+    border-radius: 8px;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 20px;
+    width: 16px;
+    height: 16px;
+    background-color: #17a2b8;
+    border-radius: 50%;
+    border: 4px solid #343a40;
+  }
+  
+  .timeline-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .timeline-item p {
+    font-size: 16px;
+    color: #adb5bd;
+  }
+  
+  .timeline-item strong {
+    color: #17a2b8;
+  }
+  

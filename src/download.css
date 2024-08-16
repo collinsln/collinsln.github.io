@@ -1,0 +1,26 @@
+.download-section {
+    padding: 50px;
+    color: #ffffff;
+    background-color: #343a40; /* Dark background */
+    text-align: center;
+}
+
+.download-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.download-button {
+    background-color: #17a2b8; /* Button color */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #138496; /* Darken button on hover */
+}

@@ -1,0 +1,59 @@
+/* Sidebar container */
+.sidebar {
+  height: 100vh; /* Full height */
+  width: 250px; /* Set the width */
+  position: fixed; /* Fixed Sidebar (stay in place) */
+  top: 0;
+  left: 0;
+  background-color: #333; /* Dark theme background */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navigation links container */
+.nav-links {
+  flex-grow: 1;
+  width: 100%; /* Full width */
+}
+
+/* Sidebar links */
+.sidebar a {
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #f1f1f1;
+  display: block;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* Change color on hover */
+.sidebar a:hover {
+  background-color: #575757;
+  color: #f1f1f1;
+}
+
+/* Active link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Thumbnail section */
+.thumbnail-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row; /* Make thumbnails appear side by side */
+  justify-content: center;
+  gap: 10px; /* Add space between thumbnails */
+}
+
+/* Thumbnail images */
+.thumbnail-img {
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  object-fit: cover; /* Ensure the image fits well */
+}

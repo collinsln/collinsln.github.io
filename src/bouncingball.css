@@ -1,0 +1,44 @@
+/* BouncingBall.css */
+.bouncing-ball-container {
+    position: relative;
+    width: 1cm; /* Container size */
+    height: 1cm;
+    overflow: hidden;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 3px; /* Smaller ball size */
+    height: 3px;
+    border-radius: 50%;
+    background-color: #ff5722; /* Ball color */
+    top: 50%; /* Center the balls vertically */
+    left: 50%; /* Center the balls horizontally */
+    transform: translate(-50%, -50%); /* Center alignment */
+  }
+  
+  /* Animation for rotating the balls */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg) translateX(0.4cm) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(0.4cm) rotate(-360deg);
+    }
+  }
+  
+  /* Different speed for each ball */
+  .ball:nth-child(1) {
+    animation: rotate 4s linear infinite;
+  }
+  
+  .ball:nth-child(2) {
+    background-color: #4caf50;
+    animation: rotate 5s linear infinite;
+  }
+  
+  .ball:nth-child(3) {
+    background-color: #2196f3;
+    animation: rotate 6s linear infinite;
+  }
+  
