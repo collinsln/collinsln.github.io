@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/collinsln.github.io/static/css/main.bcf2ca18.css",
-    "main.js": "/collinsln.github.io/static/js/main.1c0e23df.js",
-    "static/js/453.ed3810f9.chunk.js": "/collinsln.github.io/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/collinsln.github.io/index.html",
-    "main.bcf2ca18.css.map": "/collinsln.github.io/static/css/main.bcf2ca18.css.map",
-    "main.1c0e23df.js.map": "/collinsln.github.io/static/js/main.1c0e23df.js.map",
-    "453.ed3810f9.chunk.js.map": "/collinsln.github.io/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/static/css/main.bcf2ca18.css",
+    "main.js": "/static/js/main.43974ed0.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/index.html",
+    "main.bcf2ca18.css.map": "/static/css/main.bcf2ca18.css.map",
+    "main.43974ed0.js.map": "/static/js/main.43974ed0.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcf2ca18.css",
-    "static/js/main.1c0e23df.js"
+    "static/js/main.43974ed0.js"
   ]
 }
