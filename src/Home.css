@@ -2,26 +2,36 @@
     padding: 50px;
     color: #ffffff;
     background-color: #212529; /* Dark background */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align content to the right */
+    width: 100%;
+    box-sizing: border-box; /* Include padding in element's total width */
 }
 
-.hero {
-    text-align: center;
+.hero, .summary {
+    text-align: left; /* Align text to the right */
     margin-bottom: 50px;
+    max-width: 80%; /* Adjust width to fit your design */
+    width: 100%; /* Ensure container takes full width */
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 36px; /* Reduced font size for the main heading */
     color: #f8f9fa; /* Brighter text */
+    margin: 0; /* Remove default margin */
 }
 
 .hero h2 {
-    font-size: 24px;
+    font-size: 20px; /* Reduced font size for the subheading */
     color: #adb5bd; /* Slightly muted text */
+    margin: 0; /* Remove default margin */
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 16px; /* Reduced font size for the paragraph */
     color: #ced4da; /* Even lighter text */
+    margin: 0; /* Remove default margin */
 }
 
 .cta-button {
@@ -31,24 +41,23 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-top: 20px; /* Add space between content and button */
+    align-self: flex-end; /* Align button to the right */
 }
 
 .cta-button:hover {
     background-color: #138496; /* Darken the button on hover */
 }
 
-.summary {
-    text-align: center;
-}
-
 .summary h3 {
-    font-size: 32px;
+    font-size: 24px; /* Reduced font size for the section heading */
     color: #ffffff;
+    margin: 0; /* Remove default margin */
 }
 
 .summary p {
-    font-size: 18px;
+    font-size: 14px; /* Reduced font size for the paragraph */
     color: #ced4da;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 600px; /* Limit width for readability */
+    margin: 0; /* Remove default margin */
 }
