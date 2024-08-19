@@ -10,7 +10,7 @@ function Home() {
         <p>
           Experienced in Java, Angular, React, SQL, and C#. Specialized in biometrics and integrations, with a BSc in Analytical Chemistry with Computing.
         </p>
-        <button className="cta-button">Explore My Work</button>
+        
       </div>
       <div className="summary">
         <h3>About Me</h3>

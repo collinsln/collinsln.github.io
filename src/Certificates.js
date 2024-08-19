@@ -10,7 +10,7 @@ const certificates = [
 function Certificates() {
   return (
     <div className="certificates-section">
-      <h2>My Certificates</h2>
+      <h2>Certificates</h2>
       <div className="certificates-grid">
         {certificates.map((cert, index) => (
           <div key={index} className="certificate-item">

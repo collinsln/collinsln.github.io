@@ -4,7 +4,6 @@ import './experience.css'; // Import the CSS for styling
 function Experience() {
   return (
     <div className="experience-section">
-      <h2>Professional Experience</h2>
       <div className="timeline">
         <div className="timeline-item">
           <h3>Solar Panda - Full Stack Engineer</h3>
